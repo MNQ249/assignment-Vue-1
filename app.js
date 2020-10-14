@@ -4,6 +4,7 @@ data(){
     return{
         myName: 'Mesfer',
         myAge: 30,
+        imageURL: 'https://www.orogoldcosmetics.com/wp-content/uploads/2018/06/OROGOLD-Nature-vs-Nurture.jpg',
         // myAgeAfterFiveYear: '35'
        
     }

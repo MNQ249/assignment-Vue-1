@@ -24,7 +24,7 @@
       <p>{{ result() }}</p>
       <div>
         <!-- 5) Display some image you found via Google -->
-        <img src="https://www.orogoldcosmetics.com/wp-content/uploads/2018/06/OROGOLD-Nature-vs-Nurture.jpg" width="500" height="200"/>
+        <img v-bind:src='imageURL'/>
       </div>
       <!-- 6) Prepopulate the input field with your name via the "value" attribute -->
       <input type="text" />
