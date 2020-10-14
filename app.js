@@ -10,13 +10,8 @@ data(){
 },
 methods:{
 result(){
-    const randomNumber = Math.random();
-    if (randomNumber < 0.5){
-        return 0;
-    }
-    else{
-        return 1;
-    }
+    return Math.random();
+   
 },
 calculateAge(){
 return this.myAge + 5;
