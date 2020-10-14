@@ -17,6 +17,9 @@ result(){
     else{
         return 1;
     }
+},
+calculateAge(){
+return this.myAge + 5;
 }
 }
 
